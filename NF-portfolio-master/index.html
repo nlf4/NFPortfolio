@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nicole Furtado | Front-End Developer</title>
+    <link rel="icon" type="image/png" href="./img/n_uppercasebw_p.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/lightbox.min.css">
+    <script src="/js/lightbox-plus-jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pimg1">
+        <div class="ptext focus-in-contract fade-in-one">
+            <span class="border">
+                <p id="name-header">Nicole Furtado</p>
+                
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light" id="section-dev">
+        <h2>Hey there!</h2>
+        <p>I am a full stack web developer who loves keeping up to date with the latest <br>frameworks and technologies. Feel free to message me for more details!</p>
+        <p>I work with:</p>
+        <div id="icons">
+            <a><img src="./img/html5.png" alt="HTML5" title="HTML5" width="60px" height="60px"></a>
+            <a><img src="./img/CSS3.png" alt="CSS3" title="CSS3" width="60px" height="60px"></a>
+            <a><img src="./img/JS.png" alt="JS" title="JavaScript" width="55px" height="55px"></a>
+            <a><img src="./img/Git.png" alt="Git" title="Git" width="55px" height="55px"></a>
+            <a><img src="./img/nodejs-icon.svg" alt="Nodejs" title="Node.js" width="55px" height="55px"></a>
+            <a><img src="./img/react.png" alt="React" title="React.js" width="55px" height="55px"></a>
+            <a><img src="./img/mysql.svg" alt="MySQL" title="MySQL" width="60px" height="60px"></a>
+            <a><img src="./img/php.png" alt="PHP" title="PHP" width="60px" height="46px"></a>
+        </div>
+    </section>
+
+    <div class="pimg2">
+        <div class="ptextimg">
+            <span class="border">
+                
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Translator/Reviser</h2>
+        <p>I am also an experienced translator/reviser offering the following services: </p>
+            <ul class="list-translation">
+                <li>
+                    Dutch to English translation
+                </li>
+                <li>
+                    French to English translation
+                </li>
+                <li>
+                    Proofreading and revision (US and UK spelling)
+                </li>
+                <li>
+                    Localization
+                </li>
+                <li>
+                    Copywriting
+                </li>
+            </ul>
+             
+    </section>
+
+    <div class="pimg3">
+        <div class="ptextimg">
+            <span class="border">
+               
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light section-art">
+        <h2>Artist</h2>
+        <p>Check out my gallery for photos, drawings, and oil paintings.</p>
+        <div class="images">
+            <div class="row-1">
+                   <!-- <a class="fancybox-button gal-img" rel="fancybox-button" href="" title="Ingrid Bergman">
+                        <img src="./img/ingrid.jpg" alt="ingrid bergman drawing" />
+                    </a>
+                    <a class="fancybox-button gal-img" rel="fancybox-button" href="https://www.flickr.com/photos/171530059@N03/46966540105/in/dateposted-public/lightbox/" title="Kettle">
+                        <img src="./img/kettle.JPG" alt="kettle painting" />
+                    </a>
+                    <a class="fancybox-button gal-img" rel="fancybox-button" href="" title="John">
+                        <img src="./img/john.JPG" alt="arizona photo" /> 
+                    </a> -->
+            
+                    <a href="./img/ingrid.jpg" data-lightbox="mygallery" data-title="Ingrid Bergman"><img class="gal-img" src="./img/ingridsm.jpg" alt="ingrid bergman drawing"></a>
+                    <a href="./img/kettle.JPG" data-lightbox="mygallery" data-title="Kettle"><img class="gal-img" src="./img/kettlesm.JPG" alt="kettle painting"></a>
+                    <a href="./img/john.jpg" data-lightbox="mygallery" data-title="John"><img class="gal-img" src="./img/johnsm.JPG" alt="arizona photo"></a>
+                </div>
+            
+        </div>
+    </section>
+
+    
+        <div class="pimg4">
+            <div class="endtext-box">
+                <div id="contact">
+                    <img id="portrait" src="img/nf3.jpg" alt="Nicole Furtado">
+                        <h1 class="endtext2">Contact</h1>
+                        
+                        
+                        <p class="endtext2">firstlastname@site.com</p>
+                        <p class="endtext2">+32 444/444444</p>
+                </div>
+                        
+            </div>
+        </div>
+
+    <footer>
+
+    </footer>
+    
+</body>
+<script>
+    $(document).ready(function() {
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
+});
+
+</script>
+</html>
